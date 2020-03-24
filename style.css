@@ -1,0 +1,84 @@
+body {
+    color: black;
+    background: linear-gradient(#FFC0CB, #8A2BE2);
+    font-family: Arial, Helvetica, sans-serif ;
+  }
+
+  header{
+      color: black;
+      height: 3em;
+      margin-bottom: 1em;
+      text-align: center;    
+}
+
+.sejaBemVindo{
+    color: black;
+    text-align: center;
+}
+
+.letsPlay{
+    display: inline-block;
+    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.choise{
+    display: inline-block;
+    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.results{
+    display: inline-block;
+    vertical-align: center;
+    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.generalKnowledge, .historyOfBrazil{
+    text-align: center;
+}
+
+.correctKnowledge{
+    border: 2px solid rgb(84, 84, 167);
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+    width: 30%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.correctHistoryOfBrazil{
+    border: 2px solid rgb(84, 84, 167);
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.letsPlayAgain{
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.choiseAgain{
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+}

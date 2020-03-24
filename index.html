@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Show do Milhão</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>SHOW DO MILHÃO</h1>
+        </header>
+
+            <section class="sejaBemVindo">                  
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <h2><span id="name" class="sejaBemVindo"> </span></h2>                
+            </section>
+
+            <section class="letsPlay">
+                    <h2>Deseja jogar?</h2>
+                    <button id="playYes" class="botao-principal-yes">Sim</button>
+                    <button id="playNo" class="botao-principal-no">Não</button>
+            </section>
+
+            <section class="choise">
+                    <h2>Escolha um tema</h2>
+                    <button id="towns" class="botao-principal">Conhecimentos Gerais</button>                
+                    <button id="culture" class="botao-principal">História do Brasil</button>
+                    <br></br>
+            </section>
+                
+            <section class="generalKnowledge">
+                <div><label for="geography"><strong>Conhecimentos Gerais</strong></label></div>
+                <br></br>
+                <span>Em qual continente está o Brasil?</span>
+                <br></br>
+                <div id="questionOne" class="generalKnowledge">
+                    <label>
+                        <input type="radio" name="questionOne" value="AS">
+                        América do Sul
+                        </label>
+                        <label>
+                        <input type="radio" name="questionOne" value="AN">
+                        América do Norte
+                        </label>
+                        <label>
+                        <input type="radio" name="questionOne" value="OC">
+                        Oceania
+                        </label>
+                    </div>
+                    
+                    <div class="generalKnowledge">
+                        <br></br>
+                        <span>Em qual região está Minas Gerais?</span>
+                        <br></br>
+                        <div id="questionTwo" class="generalKnowledge">
+                        <label>
+                        <input type="radio" name="questionTwo" value="CO">
+                        Região Centro-Oeste
+                        </label>
+                        <label>
+                        <input type="radio" name="questionTwo" value="SE">
+                        Região Sudeste
+                        </label>
+                        <label>
+                        <input type="radio" name="questionTwo" value="RN">
+                        Região Norte                        
+                        </label>
+
+                    </div>
+                
+                <div class="generalKnowledge">
+                        <br></br>
+                        <span>Qual é a capital do Brasil?</span>
+                        <br></br>
+                        <div id="questionThree" class="generalKnowledge">
+                            <label>
+                            <input type="radio" name="questionThree" value="RJ">
+                            Rio de Janeiro
+                            </label>
+                            <label>
+                            <input type="radio" name="questionThree" value="SP">
+                            São Paulo
+                            </label>
+                            <label>
+                            <input type="radio" name="questionThree" value="DF">
+                            Brasília    
+                            </label>
+                            <br></br>
+                </div>
+                </section>
+                
+                <section class="historyOfBrazil">
+                        <br></br>
+                        <div><label for="history"><strong>História do Brasil</strong></label></div>
+                        <br></br>
+                        <span>Qual foi a primeira cidade fundada no Brasil?</span>
+                        <br></br>
+                        <div id="questionHistoryOne" class="generalKnowledge">
+                            <label>
+                            <input type="radio" name="questionHistoryOne" value="SV">
+                            São Vicente
+                            </label>
+                            <label>
+                            <input type="radio" name="questionHistoryOne" value="ST">
+                            Santos
+                            </label>
+                            <label>
+                            <input type="radio" name="questionHistoryOne" value="GJ">
+                            Guarujá    
+                            </label>
+                    </div>
+                    
+                    <div class="historyOfBrazil">
+                        <br></br>
+                        <span>Quem foi o primeiro Imperador do Brasil?</span>
+                        <br></br>
+                        <div id="questionHistoryTwo" class="generalKnowledge">
+                            <label>
+                            <input type="radio" name="questionHistoryTwo" value="SV">
+                            Dom Pedro I
+                            </label>
+                            <label>
+                            <input type="radio" name="questionHistoryTwo" value="ST">
+                            Dom João VI
+                            </label>
+                            <label>
+                            <input type="radio" name="questionHistoryTwo" value="GJ">
+                            Dom Maria    
+                            </label>
+                    </div>
+                
+                <div class="historyOfBrazil">
+                        <br></br>
+                        <span>Quem foi o primeiro Presidente do Brasil?</span>
+                        <br></br>
+                        <div id="questionHistoryThree" class="generalKnowledge">
+                        <label>
+                        <input type="radio" name="questionHistoryThree" value="FP">
+                        Floriano Peixoto
+                        </label>
+                        <label>
+                        <input type="radio" name="questionHistoryThree" value="PM">
+                        Prudente de Moraes
+                        </label>
+                        <label>
+                        <input type="radio" name="questionHistoryThree" value="MD">
+                        Marechal Deodoro    
+                        </label>
+                    </div>                    
+                </section>
+        
+                
+                <section class="results">
+                    <h2>Resultado</h2>
+                </section>
+    
+                <div class="correctKnowledge">
+                    <h3>Respostas Conhecimentos Gerais</h3>
+                        <p><a id="correctAnswerA"></a></p>
+                        <p><a id="correctAnswerB"></a></p>
+                        <p><a id="correctAnswerC"></a></p>
+                </div>
+
+                <div class="correctHistoryOfBrazil">
+                    <h3>Respostas História do Brasil</h3>
+                        <p><a id="correctAnswerA"></a></p>
+                        <p><a id="correctAnswerA"></a></p>
+                        <p><a id="correctAnswerC"></a></p>
+                        <br></br>
+                </div>
+            
+                <section class="letsPlayAgain">
+                    <h2>Jogar Novamente?</h2>
+                    <button id="playAgainYes" class="botao-yes">Sim</button>
+                    <button id="playAgainNo" class="botao-no">Não</button>            
+                </section>
+
+                <section class="choiseAgain">
+                    <h2>Escolha um tema</h2>
+                    <button id="townsAgain" class="botao-principal-cn">Conhecimentos Gerais</button>                
+                    <button id="cultureAgain" class="botao-principal-hb">História do Brasil</button>
+                </section>
+                
+                <script src="quiz-geography.js"></script>
+                <script src="quiz-history.js"></script>
+                
+    </body>
+</html>
