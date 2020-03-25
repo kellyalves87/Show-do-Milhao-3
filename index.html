@@ -12,23 +12,24 @@
 
             <section class="sejaBemVindo">                  
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-                <h2><span id="name" class="sejaBemVindo"> </span></h2>                
+                <h2><span id="name" class="sejaBemVindo"> </span></h2>    
+                <h3><span id="msg"></span></h3>            
             </section>
 
-            <section class="letsPlay">
+            <section id="play" class="letsPlay">
                     <h2>Deseja jogar?</h2>
-                    <button id="playYes" class="botao-principal-yes">Sim</button>
-                    <button id="playNo" class="botao-principal-no">Não</button>
+                    <button id="playYes" class="botao-principal-yes" onclick="initGame()">Sim</button>
+                    <button id="playNo" class="botao-principal-no" onclick="init()">Não</button>
             </section>
 
-            <section class="choise">
+            <section id="choise" class="choise">
                     <h2>Escolha um tema</h2>
-                    <button id="towns" class="botao-principal">Conhecimentos Gerais</button>                
-                    <button id="culture" class="botao-principal">História do Brasil</button>
+                    <button id="towns" class="botao-principal" onclick="playGeneralKnowledge()">Conhecimentos Gerais</button>                
+                    <button id="culture" class="botao-principal" onclick="playHistoryOfBrazil()">História do Brasil</button>
                     <br></br>
             </section>
                 
-            <section class="generalKnowledge">
+            <section id="generalKnowledge" class="generalKnowledge">
                 <div><label for="geography"><strong>Conhecimentos Gerais</strong></label></div>
                 <br></br>
                 <span>Em qual continente está o Brasil?</span>
@@ -87,9 +88,10 @@
                             </label>
                             <br></br>
                 </div>
-                </section>
+                <button id="submitKnowledge" class="botao-principal" onclick="playGeneralKnowledge()">Enviar</button>
+            </section>
                 
-                <section class="historyOfBrazil">
+            <section id="historyOfBrazil" class="historyOfBrazil">
                         <br></br>
                         <div><label for="history"><strong>História do Brasil</strong></label></div>
                         <br></br>
@@ -146,41 +148,35 @@
                         <input type="radio" name="questionHistoryThree" value="MD">
                         Marechal Deodoro    
                         </label>
-                    </div>                    
-                </section>
+                    </div>
+                    <button id="submitHistory" class="botao-principal" onclick="playHistoryOfBrazil()">Enviar</button>                    
+            </section>
         
-                
-                <section class="results">
+
+                <section id="results" class="results">
                     <h2>Resultado</h2>
                 </section>
     
-                <div class="correctKnowledge">
-                    <h3>Respostas Conhecimentos Gerais</h3>
+                <div id="correctAnswers" class="correctKnowledgeHistory">
+                    <h3>Respostas</h3>
                         <p><a id="correctAnswerA"></a></p>
                         <p><a id="correctAnswerB"></a></p>
                         <p><a id="correctAnswerC"></a></p>
                 </div>
 
-                <div class="correctHistoryOfBrazil">
-                    <h3>Respostas História do Brasil</h3>
-                        <p><a id="correctAnswerA"></a></p>
-                        <p><a id="correctAnswerA"></a></p>
-                        <p><a id="correctAnswerC"></a></p>
-                        <br></br>
-                </div>
-            
-                <section class="letsPlayAgain">
+                <section id="letsPlayAgain" class="letsPlayAgain">
                     <h2>Jogar Novamente?</h2>
                     <button id="playAgainYes" class="botao-yes">Sim</button>
                     <button id="playAgainNo" class="botao-no">Não</button>            
                 </section>
 
-                <section class="choiseAgain">
+                <section id="choiseAgain" class="choiseAgain">
                     <h2>Escolha um tema</h2>
                     <button id="townsAgain" class="botao-principal-cn">Conhecimentos Gerais</button>                
                     <button id="cultureAgain" class="botao-principal-hb">História do Brasil</button>
                 </section>
                 
+                <script src="principal.js"></script>
                 <script src="quiz-geography.js"></script>
                 <script src="quiz-history.js"></script>
                 

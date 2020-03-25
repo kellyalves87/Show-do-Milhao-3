@@ -1,6 +1,6 @@
 body {
     color: black;
-    background: linear-gradient(#FFC0CB, #8A2BE2);
+    background: white;
     font-family: Arial, Helvetica, sans-serif ;
   }
 
@@ -45,23 +45,13 @@ body {
     text-align: center;
 }
 
-.correctKnowledge{
+.correctAnswers{
     border: 2px solid rgb(84, 84, 167);
     display: inline-block;
     vertical-align: top;
     height: 400px;
     width: 30%;
     margin-left: 15%;
-    text-align: center;
-}
-
-.correctHistoryOfBrazil{
-    border: 2px solid rgb(84, 84, 167);
-    display: inline-block;
-    vertical-align: top;
-    height: 400px;
-    width: 30%;
-    margin-left: 10%;
     text-align: center;
 }
 
