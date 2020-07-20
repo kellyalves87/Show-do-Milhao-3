@@ -1,4 +1,4 @@
-# Show-do-Milhao-3
+# Show do Milhão 3
 
 Projeto criado para um quiz de perguntas e respostas sobre temas gerais.
 
